@@ -8,20 +8,17 @@
   <meta name="description" content="Interaction with Meaning" />
   <link href="assets/css/loaders/loader-typing.css" rel="stylesheet" type="text/css" media="all" />
   <link href="assets/css/theme-sd.css" rel="stylesheet" type="text/css" media="all" />
-  <!-- <link rel="preload" as="font" href="assets/fonts/Akrobat.var.woff" type="font/woff" crossorigin="anonymous">
-    <link rel="preload" as="font" href="assets/fonts/Akrobat.var.woff" type="font/woff" crossorigin="anonymous"> -->
+  <link href="assets/css/styles.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 
 <body>
-  <!-- <div class="loader">
-      <div class="loading-animation"></div>
-    </div> -->
-
+  <!-- Navigation bar -->
   <div class="navbar-container">
     <nav class="navbar navbar-expand-lg justify-content-between bg-primary-3 navbar-light">
       <div class="container">
+        <!-- Site logo left -->
         <div class="col flex-fill px-0 d-flex justify-content-between">
-          <a class="navbar-brand mr-0 fade-page" href="index.html">
+          <a class="navbar-brand mr-0 fade-page" href="/">
             <img src="assets/img/logo.svg" alt="Smythe Design" class="icon icon-lg" />
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,6 +26,8 @@
             <img class="icon navbar-toggler-close" src="assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
           </button>
         </div>
+        <!-- End Site logo left -->
+        <!-- Site navigation menu -->
         <div class="collapse navbar-collapse flex-fill">
           <div class="py-2 py-lg-0">
             <ul class="navbar-nav">
@@ -57,11 +56,14 @@
             </ul>
           </div>
         </div>
+        <!-- End Site navigation menu -->
       </div>
     </nav>
   </div>
+  <!-- End Navigation bar -->
 
-  <section class="text-light jarallax" data-jarallax-video="mp4:./assets/video/background_omnibot.mp4,webm:./assets/video/background_omnibot.webm,ogv:./assets/video/background_omnibot.ogv" data-speed="1">
+  <!-- Video header -->
+  <section class="text-light jarallax" data-jarallax-video="mp4:./assets/video/background_omnibot.mp4,webm:./assets/video/background_omnibot.webm" data-speed="1" style="background-image: url('./assets/img/background_video.jpg');">
     <div class="container">
       <div class="row min-vh-60 align-items-center">
         <div class="col text-center">
@@ -70,6 +72,9 @@
       </div>
     </div>
   </section>
+  <!-- End Video header -->
+
+  <!-- Intro section -->
   <section class="bg-primary-3 has-divider text-dark">
     <div class="container pb-6">
       <div class="row justify-content-center text-center">
@@ -87,6 +92,9 @@
       </div>
     </div>
   </section>
+  <!-- End Intro section -->
+
+  <!-- 4 column work section -->
   <section class="pt-5 pb-4 bg-primary-3 text-light">
     <div id="workbench">
       <div class="container">
@@ -94,31 +102,34 @@
           <div class="col-sm-6 col-lg-3 mb-4 text-center">
             <a href="work_interactive.html">
               <h4 class="mb-3 text-muted">Interactive</h4>
-              <img src="assets/img/workbench_tile01.png" alt="Interactive" class="rounded mb-3" />
+              <img src="assets/img/workbench_tile01.jpg" alt="Interactive" class="rounded mb-3" />
             </a>
           </div>
           <div class="col-sm-6 col-lg-3 mb-4 text-center">
             <a href="work_email.html">
               <h4 class="mb-3 text-muted">Email Marketing</h4>
-              <img src="assets/img/workbench_tile02.png" alt="Email" class="rounded mb-3" />
+              <img src="assets/img/workbench_tile02.jpg" alt="Email" class="rounded mb-3" />
             </a>
           </div>
           <div class="col-sm-6 col-lg-3 mb-4 text-center">
             <a href="work_elearning.html">
               <h4 class="mb-3 text-muted">eLearning</h4>
-              <img src="assets/img/workbench_tile03.png" alt="eLearning" class="rounded mb-3" />
+              <img src="assets/img/workbench_tile03.jpg" alt="eLearning" class="rounded mb-3" />
             </a>
           </div>
           <div class="col-sm-6 col-lg-3 mb-4 text-center">
             <a href="work_print.html">
               <h4 class="mb-3 text-muted">Print</h4>
-              <img src="assets/img/workbench_tile04.png" alt="Print" class="rounded mb-3" />
+              <img src="assets/img/workbench_tile04.jpg" alt="Print" class="rounded mb-3" />
             </a>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <!-- End 4 column work section -->
+
+  <!-- Closing & CTA section -->
   <section class="bg-primary-3 has-divider text-dark">
     <div class="container pb-7 pt-0">
       <div class="row justify-content-center text-center">
@@ -132,20 +143,26 @@
       </div>
     </div>
   </section>
+  <!-- End Closing & CTA section -->
+
+  <!-- Footer -->
   <footer class="pb-5 bg-primary-alt">
     <div class="container">
+      <!-- Footer logo -->
       <div class="row mb-4 justify-content-center">
         <div class="col-auto">
-          <a href="index.html">
+          <a href="/">
             <img src="assets/img/logo-white.svg" alt="Smythe Design" class="icon icon-lg" />
           </a>
         </div>
       </div>
+      <!-- End Footer logo -->
+      <!-- Footer navigation -->
       <div class="row mb-4">
         <div class="col">
           <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a href="index.html#workbench" class="nav-link">Workbench</a>
+              <a href="/#workbench" class="nav-link">Workbench</a>
             </li>
             <li class="nav-item">
               <a href="experience.html" class="nav-link">Experience</a>
@@ -159,6 +176,8 @@
           </ul>
         </div>
       </div>
+      <!-- End Footer navigation -->
+      <!-- Footer social media -->
       <div class="row justify-content-center mt-5 mb-5">
         <div class="col-auto">
           <ul class="nav">
@@ -185,13 +204,17 @@
           </ul>
         </div>
       </div>
+      <!-- End Footer social media -->
+      <!-- Footer copyright -->
       <div class="row justify-content-center text-center">
         <div class="col-xl-10">
           <small class="text-white-50">&copy;2020 Smythe Design. All Rights Reserved.</small>
         </div>
       </div>
+      <!-- End Footer copyright -->
     </div>
   </footer>
+  <!-- End Footer -->
 
   <!-- Required vendor scripts (Do not remove) -->
   <script type="text/javascript" src="assets/js/jquery.min.js"></script>
@@ -240,9 +263,7 @@
   <script type="text/javascript" src="assets/js/theme.js"></script>
   <!-- Removes page load animation when window is finished loading -->
   <script type="text/javascript">
-    window.addEventListener('load', function() {
-      document.querySelector('body').classList.add('loaded');
-    });
+    window.addEventListener("load", function () { document.querySelector('body').classList.add('loaded'); });
   </script>
 </body>
 
